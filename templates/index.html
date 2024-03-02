@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mads Choice</title>
+    
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="static/css/play-styles.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Bellefair&family=Cardo:wght@700&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section id="main-content">
+      <div class="stats flex center">
+        <div class="life-div flex center">
+          <img class="life-img" src="https://cdn-icons-png.flaticon.com/512/2107/2107845.png">
+          <h1 class="life-text">Life:</h1>
+          <span class="life-stat">10</span>
+        </div>
+        <div class="mana-div flex center">
+          <img class="mana-img" src="https://cdn-icons-png.flaticon.com/512/9954/9954184.png">
+          <h1 class="mana-text">Mana:</h1>
+          <span class="mana-stat">8</span>
+        </div>
+        <div class="morality-div flex center">
+          <img class="morality-img" src="https://cdn-icons-png.flaticon.com/512/9192/9192532.png">
+          <h1 class="morality-text">Morality:</h1>
+          <span class="morality-stat">0</span>
+        </div>
+        <div class="coin-div flex center">
+          <img class="coin-img" src="https://cdn-icons-png.flaticon.com/512/6521/6521991.png" alt="stat-img">
+          <h1 class="coin-text">Coin:</h1>
+          <span class="coin-stat">0</span>
+        </div>
+      </div>
+      
+      <div class="img-story-div">
+        <img class="fantasy-img hide" src="https://i.pinimg.com/originals/37/1d/91/371d917f7e7b4947d478c7c5076b3c3e.jpg">
+        <div class="story">
+	  <p class="paragraph-1"> {{ paragraph }} </p>
+          <p class="paragraph-2 hide"></p>
+          <p class="paragraph-3 hide"></p>
+          <p class="paragraph-4 hide"></p>
+	</div>
+      </div>
+    
+      <div class="buttons">
+        <button class="button-1"></button>
+        <button class="button-2 hide"></button>
+        <button class="button-3 hide"></button>
+        <button class="button-4 hide"></button>
+      </div>
+    </section>
+
+  </body>
+</html>
